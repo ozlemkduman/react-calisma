@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js'
 import Main from './components/Main.js'
+import About from './components/About.js'
 
 let name="Özlem";
 let lastName="Karaduman";
@@ -14,6 +15,7 @@ function App() {
       <p>{`Burası ${name} ${lastName}'ın çalışma alanıdır.`}</p>
       <p>{isActive ? greating : "Üye değilsiniz"}</p>
       <Main/>
+      <About/>
     </div>
   );
 }
